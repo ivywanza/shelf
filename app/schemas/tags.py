@@ -1,0 +1,21 @@
+from enum import Enum
+
+class Tags(Enum):
+    ROLES = "roles"
+    COMPANY = "company"
+    EMPLOYEE = "employee"
+    CUSTOMER = "customer"
+    BRANCH = "branch"
+    PRODUCTSTOCK = "product_stock"
+    PRODUCTS = "products"
+    PAYMENTMETHOD = "payment_methods"
+    PURCHASE = "purchase"
+    SALE = "sale"
+    PAYMENT = "payments"
+    BILLTYPE = "bill_type"
+    BILL = "bills"
+    SHELF="shelf"
+    LOGIN="login"
+    SUBSCRIPTION="subscription"
+    BUYER="buyer"
+    ORDER="order"
